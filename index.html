@@ -9,8 +9,13 @@
 </head>
 <body>
     <div class="global">
+        <!-- HEADER -->
         <header class="header">
             <img src="img/illustrator/yo.png" alt="me" class="header__img">
+            <div class="header__title">
+                <h1>Israel Gonzalez</h1>
+                <h3>Developer in progress.</h3>
+            </div>
             <menu class="header__menu">
                 <a href="#" class="header__link">
                     <img src="img/icons/github-6980894_1280.png" alt="git icon" class="menu__icon">
@@ -26,8 +31,91 @@
                 </a>
             </menu>
         </header>
-
+        <!-- SKILL&DEGREE -->
+        <div class="skll">
+            <div class="skill__box box-content">
+                
+                <h2 class="title">Mis Skill</h2>
+                
+                <div class="skill-card">
+                    <img src="img/icons/css.png" alt="CSS icon">
+                </div>
+                <div class="skill-card">
+                    <img src="img/icons/html5.png" alt="html5 icon">
+                </div>
+                <div class="skill-card">
+                    <img src="img/icons/JavaScript-logo.png" alt="JavaScript icon">
+                </div>
+                <div class="skill-card">
+                    <img src="img/icons/pug.png" alt="JavaScript icon">
+                </div>
+                <div class="skill-card">
+                    <img src="img/icons/sass.png" alt="JavaScript icon">
+                </div>
+                <div class="skill-card">
+                    <img src="img/icons/wp.png" alt="JavaScript icon">
+                </div>
+                <h2 class="title">Mis estudios</h2>
+                <div class="skill-card">
+                    <img src="img/icons/logo_uveg.png" alt="JavaScript icon">
+                    <p>Ingenieria en sistemas computacionales</p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/icons/logo-aluraespanhol.svg" alt="JavaScript icon">
+                    <p>Especialización en frontend</p>
+                </div>
+            </div>
+        </div>
+        <!-- ABOUT -->
+        <div class="about">
+            <div class="box-content">
+                <h2 class="title">Más de mi.</h2>
+                <p>¡Hola! Soy Israel Gonzalez, un apasionado de las tecnologías y un entusiasta del aprendizaje continuo. Siempre estoy buscando nuevas formas de aplicar los conocimientos que adquiero en mi vida diaria.</p>
+                    
+                <p>Cuando no estoy inmerso en el mundo de la tecnología, disfruto compartiendo mi tiempo libre con mi familia. Nos encanta sumergirnos en el emocionante universo del anime y, de vez en cuando, explorar algunas series coreanas.</p>
+                    
+                <p>Mi trayectoria profesional me ha llevado a especializarme en infraestructuras de redes, soluciones de aclimatación de Data Centers y sistemas de energía ininterrumpida. Sin embargo, mi pasión por lo nuevo me ha llevado también a incursionar en el mundo de la programación.</p>
+                    
+                <p>¡Estoy emocionado de compartir más sobre mi viaje tecnológico y cómo puedo contribuir con mis habilidades y experiencia!</p>
+            </div>
+        </div>
     </div>
+    <!-- PROYECTS -->
+    <div class="proyects">
+        <div class="box-content">
+            <h2 class="title">Proyectos</h2>
+            <div class="proyects-card">
+                <img src="img/illustrator/gesintek.png" alt="">
+                <p>Gesintek, soluciones tecnológicas.</p>
+                <a href="#">Ver más.</a>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-box box-content">
+            <h2 class="title">Contacto</h2>
+            <form id="footer-form" class="footer-form">
+                <div class="form-input">
+                    <label for="name">Nombre</label>
+                    <input name="name" type="text" id="name" placeholder="Nombre completo" required>
+                </div>
+                <div class="form-input">
+                    <label for="email">Correo electrónico</label>
+                    <input name="email" id="email" placeholder="correo electronico" required>
+                </div>
+                <div class="form-input">
+                    <label for="asunto">Asunto</label>
+                    <input name="asunto" type="text" id="asunto" placeholder="Asunto" required>
+                </div>
+                <div class="form-input">
+                    <label for="asunto">Asunto</label>
+                    <textarea name="asunto" id="asunto" placeholder="Asunto" required>
+                        <button type="button" name="send" id="send" class="form-send">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </footer>
     <script src="js/app.js"></script>
 </body>
 </html>
